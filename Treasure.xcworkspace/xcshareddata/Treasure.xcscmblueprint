@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ee0866a2-c34a-ed46-8663-7dff760f196b++4004",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "ee0866a2-c34a-ed46-8663-7dff760f196b++4004" : {
+
+    },
+    "ee0866a2-c34a-ed46-8663-7dff760f196b++3622" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ee0866a2-c34a-ed46-8663-7dff760f196b++4004" : 0,
+    "ee0866a2-c34a-ed46-8663-7dff760f196b++3622" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1A068BDC-23BE-41DB-8378-F47E5FB7A484",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ee0866a2-c34a-ed46-8663-7dff760f196b++4004" : "TreasureProject\/",
+    "ee0866a2-c34a-ed46-8663-7dff760f196b++3622" : "Treasure\/Treasure\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Treasure",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Treasure.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.120\/svn\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ee0866a2-c34a-ed46-8663-7dff760f196b++3622"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.120\/svn\/ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ee0866a2-c34a-ed46-8663-7dff760f196b++4004"
+    }
+  ]
+}

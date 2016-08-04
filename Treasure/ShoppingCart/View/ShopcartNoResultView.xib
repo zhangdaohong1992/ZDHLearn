@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view hidden="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="ShopcartNoResultView">
+            <rect key="frame" x="0.0" y="0.0" width="149.5" height="179"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shopping-car_no.png" translatesAutoresizingMaskIntoConstraints="NO" id="fUz-ND-6sO">
+                    <rect key="frame" x="40" y="0.0" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="fUz-ND-6sO" secondAttribute="height" multiplier="1:1" id="3FM-El-s2i"/>
+                        <constraint firstAttribute="width" constant="70" id="zAT-Wo-93K"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您的购物车空空如也来挑几件好货吧" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qC-Vh-5ON">
+                    <rect key="frame" x="12" y="85" width="126" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6sD-pb-SZy">
+                    <rect key="frame" x="5" y="143" width="140" height="36"/>
+                    <color key="backgroundColor" red="1" green="0.27450980390000002" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="9gt-TY-bbL"/>
+                        <constraint firstAttribute="height" constant="36" id="Yyf-Kh-5Iu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="去逛逛">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="fUz-ND-6sO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="2Oy-VH-M05"/>
+                <constraint firstItem="6sD-pb-SZy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6Oh-yb-rkg"/>
+                <constraint firstItem="4qC-Vh-5ON" firstAttribute="top" secondItem="fUz-ND-6sO" secondAttribute="bottom" constant="15" id="8Ix-KE-xuQ"/>
+                <constraint firstAttribute="bottom" secondItem="6sD-pb-SZy" secondAttribute="bottom" id="9OJ-kl-sw4"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4qC-Vh-5ON" secondAttribute="trailing" constant="6" id="HpE-rP-Y0E"/>
+                <constraint firstItem="6sD-pb-SZy" firstAttribute="centerX" secondItem="4qC-Vh-5ON" secondAttribute="centerX" id="d3L-dB-euz"/>
+                <constraint firstItem="4qC-Vh-5ON" firstAttribute="centerX" secondItem="fUz-ND-6sO" secondAttribute="centerX" id="jcs-wv-4zS"/>
+                <constraint firstItem="6sD-pb-SZy" firstAttribute="top" secondItem="4qC-Vh-5ON" secondAttribute="bottom" constant="25" id="kgL-Au-97z"/>
+                <constraint firstItem="4qC-Vh-5ON" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="yrU-6y-S2s"/>
+                <constraint firstItem="fUz-ND-6sO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="zr7-yM-uZa"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="d3L-dB-euz"/>
+                    <exclude reference="kgL-Au-97z"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="goButton" destination="6sD-pb-SZy" id="3jS-Dh-dsf"/>
+            </connections>
+            <point key="canvasLocation" x="469.75" y="139.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="shopping-car_no.png" width="70" height="70"/>
+    </resources>
+</document>
