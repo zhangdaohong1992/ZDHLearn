@@ -1,5 +1,5 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ee0866a2-c34a-ed46-8663-7dff760f196b++4004",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7F79B486C1FC6BD45A083F43467034317F236F82",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "ee0866a2-c34a-ed46-8663-7dff760f196b++4004" : {
 
@@ -9,11 +9,13 @@
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7F79B486C1FC6BD45A083F43467034317F236F82" : 0,
     "ee0866a2-c34a-ed46-8663-7dff760f196b++4004" : 0,
     "ee0866a2-c34a-ed46-8663-7dff760f196b++3622" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1A068BDC-23BE-41DB-8378-F47E5FB7A484",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7F79B486C1FC6BD45A083F43467034317F236F82" : "ZDHLearn\/",
     "ee0866a2-c34a-ed46-8663-7dff760f196b++4004" : "TreasureProject\/",
     "ee0866a2-c34a-ed46-8663-7dff760f196b++3622" : "Treasure\/Treasure\/"
   },
@@ -21,6 +23,11 @@
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Treasure.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhangdaohong1992\/ZDHLearn.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F79B486C1FC6BD45A083F43467034317F236F82"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.120\/svn\/ios",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
